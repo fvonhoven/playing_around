@@ -1,8 +1,8 @@
 class AppDelegate
-  def application(application, didFinishLaunchingWithOptions:launchOptions)
-    rootViewController = UIViewController.alloc.init
-    rootViewController.title = 'frank_sexy'
-    rootViewController.view.backgroundColor = UIColor.whiteColor
+  def application(application, didFinishLaunchingWithOptions:launch_options)
+    rootViewController = UIViewController.new
+    rootViewController.title = 'First App'
+    rootViewController.view.backgroundColor = UIColor.redColor
 
     navigationController = UINavigationController.alloc.initWithRootViewController(rootViewController)
 
